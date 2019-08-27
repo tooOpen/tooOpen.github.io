@@ -30,6 +30,16 @@ body {
 		margin: 0 3px 0 0;
 	}
 }
+.markdown-body img.emoji{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    box-sizing: unset;
+    background: none;
+    vertical-align: middle;
+}
+
 .post_title {
 	h1 {
 		display: inline-block;
@@ -304,6 +314,12 @@ ul.topbar {
 		word-break: break-word;
 	}
 }
+
+
+img.alignleft{float:left}
+img.alignright{float:right}
+img.aligncenter{display:block;margin:0 auto}
+
 @media only screen and (max-width: 900px) {
     .content {
         width: 90%;

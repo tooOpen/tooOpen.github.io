@@ -1,5 +1,5 @@
 permalink: /:year:month:day/:title
-url: #Your url here
+url: "https://tooopen.github.io/"
 baseurl: ""
 
 # variables
@@ -11,6 +11,9 @@ google_verification: null
 # File management
 include: [".htaccess"]
 exclude: ["README.md", "LICENSE"]
+
+plugins:
+  - jemoji
 
 # Sass
 sass:
